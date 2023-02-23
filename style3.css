@@ -1,0 +1,12 @@
+#output {
+    border-right: 1px solid #000; /* đường kẻ phân cách giữa các ký tự */
+    font-size: 1.2em; /* kích cỡ chữ */
+    white-space: nowrap; /* ngăn không cho xuống dòng */
+    overflow: hidden; /* ngăn không cho tràn qua khung */
+    animation: typing 2s steps(20) infinite; /* tạo hiệu ứng typing */
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
