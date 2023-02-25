@@ -134,7 +134,7 @@
                     n: 1,
                     stop: null,
                     }, {
-                    headers: { Authorization: `Bearer ${apiKey}` }
+                    headers: { Authorization: `Bearer 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` }
                     })
                     .then((response) => {
                         const answer = response.data.choices[0].text;
@@ -160,7 +160,7 @@
                     stop: null,
                     }
                 , {
-                    headers: { Authorization: `Bearer ${apiKey}` }
+                    headers: { Authorization: `Bearer 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` }
                     })
                     .then((response) => {
                         const answer1 = response.data.choices[0].text;
@@ -175,11 +175,11 @@
                     n: 1,
                     stop: null,
                     }, {
-                    headers: { Authorization: `Bearer ${apiKey}` }
+                    headers: { Authorization: `Bearer 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` }
                     })
                     .then((response) => {
                         const answer3 = response.data.choices[0].text;
-                        const answer4 = answer3
+                        const answer4 = answer3;
                     outputDiv2.innerHTML = "<h3> Lời khuyên của tôi </h3>" + answer3.replace(/\n/g,"<br>") + "</p>";
                     loadingDiv2.style.display = "none";
                 })
